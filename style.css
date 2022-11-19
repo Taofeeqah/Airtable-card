@@ -1,0 +1,67 @@
+body {
+    font-family: "GTEestiDisplay-Medium", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+
+  .main {
+    width: 20%;
+    margin: auto;
+    background-color: #ffeab6;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  .subscription-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -50px;
+    gap: 2rem;
+  }
+
+  .price p {
+    font-size: 1rem;
+  }
+
+  .price h1 {
+    font-size: 4rem;
+  }
+
+  .monthly {
+    margin-bottom: 1.5rem;
+  }
+
+  .button {
+    border-radius: 9999px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    font-family: "GTEestiDisplay-Medium", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+  }
+  ul {
+    list-style: url("data:image/svg+xml;utf8,<?xml version='1.0' encoding='utf-8'?><svg width='14' height='14' viewBox='0 0 1792 1792' xmlns='http://www.w3.org/2000/svg'><path d='M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z'/></svg>");
+    padding: 0 0 100px 4px;
+    margin-left: 1rem;
+  }
+  li {
+    position: relative;
+    padding-left: 0.5em;
+    line-height: 1.65;
+  }
+
+  span {
+    border-bottom: 2px dotted rgb(51, 51, 51);
+    cursor: text; 
+  }
